@@ -14,7 +14,7 @@ class ShowPreview extends Component {
     return (
       <div className="t-preview">
         {/*<ShowHeaderPreview>*/}
-        <Link to={`/shows/${id}`} className="t-link"><h3>{name}</h3></Link>
+        <Link to={`/shows/${id}`} className="t-link">{name}</Link>
         {image ? <img src={image} alt={name}/> : null}
         {/*</ShowHeaderPreview>*/}
 
